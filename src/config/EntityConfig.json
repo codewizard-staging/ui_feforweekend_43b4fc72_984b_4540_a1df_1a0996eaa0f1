@@ -1,0 +1,463 @@
+{
+        "orderalert": [
+                        {
+                            "key": "OrderAlertId",
+                            "type": "keyid"
+                        },
+                        {
+                            "key": "StockAlertmsg",
+                            "label": "StockAlertmsg",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "StockAlertmsg is required"
+                            ]
+                        },
+                        {
+                            "key": "PhNum",
+                            "label": "PhNum",
+                            "type": "dropdown",
+                            "valueId": "Value",
+                            "nameId": "Name",
+                            "contentId": "Name",
+                            "source": "Edm.Int64",
+                            "editable": true,
+                            "validators": [
+                                "required",
+                                "isNumber"
+                            ],
+                            "validationMessages": [
+                                "PhNum is required"
+                            ]
+                        },
+                        {
+                            "key": "ItemName",
+                            "label": "ItemName",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "ItemName is required"
+                            ]
+                        },
+                    {
+                        "key": "OrderAlertItemvendor",
+                        "type": "keyid"
+                    }  
+                        ]
+,        "restuarant": [
+                        {
+                            "key": "RestuarantID",
+                            "type": "keyid"
+                        },
+                        {
+                            "key": "OwnerName",
+                            "label": "OwnerName",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "OwnerName is required"
+                            ]
+                        },
+                        {
+                            "key": "OwnerPh",
+                            "label": "OwnerPh",
+                            "type": "dropdown",
+                            "valueId": "Value",
+                            "nameId": "Name",
+                            "contentId": "Name",
+                            "source": "Edm.Int64",
+                            "editable": true,
+                            "validators": [
+                                "required",
+                                "isNumber"
+                            ],
+                            "validationMessages": [
+                                "OwnerPh is required"
+                            ]
+                        },
+                        {
+                            "key": "RestuarantName",
+                            "label": "RestuarantName",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "RestuarantName is required"
+                            ]
+                        },
+                    {
+                        "key": "RestuarantItemlist",
+                        "type": "keyid"
+                    }  
+                        ]
+,        "purchaseorder": [
+                        {
+                            "key": "PurchaseOrderId",
+                            "type": "keyid"
+                        },
+                        {
+                            "key": "ItemName",
+                            "label": "ItemName",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "ItemName is required"
+                            ]
+                        },
+                        {
+                            "key": "Discount",
+                            "label": "Discount",
+                            "type": "dropdown",
+                            "valueId": "Value",
+                            "nameId": "Name",
+                            "contentId": "Name",
+                            "source": "Edm.Int32",
+                            "editable": true,
+                            "validators": [
+                                "required",
+                                "isNumber"
+                            ],
+                            "validationMessages": [
+                                "Discount is required"
+                            ]
+                        },
+                        {
+                            "key": "PurchaseOrderDate",
+                            "label": "PurchaseOrderDate",
+                            "type": "date",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "PurchaseOrderDate is required"
+                            ]
+                        },
+                        {
+                            "key": "Invoice",
+                            "label": "Invoice",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "Invoice is required"
+                            ]
+                        },
+                        {
+                            "key": "TaxGSTAmount",
+                            "label": "TaxGSTAmount",
+                            "type": "dropdown",
+                            "valueId": "Value",
+                            "nameId": "Name",
+                            "contentId": "Name",
+                            "source": "Edm.Int32",
+                            "editable": true,
+                            "validators": [
+                                "required",
+                                "isNumber"
+                            ],
+                            "validationMessages": [
+                                "TaxGSTAmount is required"
+                            ]
+                        },
+                        {
+                            "key": "ExchangeDate",
+                            "label": "ExchangeDate",
+                            "type": "dropdown",
+                                "valueId": "Value",
+                                "nameId": "Name",
+                                "contentId": "Name",
+                                "source": "Edm.Int32",
+                                "editable": true,
+                                "validators": [
+                                    "required",
+                                    "isNumber"
+                                ],
+                                "validationMessages": [
+                                    "ExchangeDate is required"
+                                ]
+                            }
+        ]
+,        "items": [
+                        {
+                            "key": "ItemId",
+                            "type": "keyid"
+                        },
+                        {
+                            "key": "ItemName",
+                            "label": "ItemName",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "ItemName is required"
+                            ]
+                        },
+                        {
+                            "key": "ItemDescription",
+                            "label": "ItemDescription",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "ItemDescription is required"
+                            ]
+                        },
+                        {
+                            "key": "ItemImage",
+                            "label": "ItemImage",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "ItemImage is required"
+                            ]
+                        },
+                        {
+                            "key": "ItemType",
+                            "label": "ItemType",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "ItemType is required"
+                            ]
+                        },
+                    {
+                        "key": "ItemsStock",
+                        "type": "keyid"
+                    },
+                                    {
+                        "key": "ItemsItemimage",
+                        "type": "keyid"
+                    },
+                    {
+                        "key": "Itemimage",
+                        "label": "Itemimage",
+                        "width": "30%",
+                        "type": "doc",
+                        "accept": ".JPG,.JPEG,.PNG",
+                        "editable": true,
+                        "multiple": true,
+                        "validators": [
+                            "required"
+                        ],
+                        "validationMessages": [
+                            "Items Itemimage is required"
+                        ]
+                    }
+                        ]
+,        "vendor": [
+                        {
+                            "key": "VendorID",
+                            "type": "keyid"
+                        },
+                        {
+                            "key": "ProductName",
+                            "label": "ProductName",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "ProductName is required"
+                            ]
+                        },
+                        {
+                            "key": "UnitsPurchased",
+                            "label": "UnitsPurchased",
+                            "type": "dropdown",
+                            "valueId": "Value",
+                            "nameId": "Name",
+                            "contentId": "Name",
+                            "source": "Edm.Int32",
+                            "editable": true,
+                            "validators": [
+                                "required",
+                                "isNumber"
+                            ],
+                            "validationMessages": [
+                                "UnitsPurchased is required"
+                            ]
+                        },
+                        {
+                            "key": "PricePerUnit",
+                            "label": "PricePerUnit",
+                            "type": "dropdown",
+                            "valueId": "Value",
+                            "nameId": "Name",
+                            "contentId": "Name",
+                            "source": "Edm.Int32",
+                            "editable": true,
+                            "validators": [
+                                "required",
+                                "isNumber"
+                            ],
+                            "validationMessages": [
+                                "PricePerUnit is required"
+                            ]
+                        },
+                        {
+                            "key": "VendorAddress",
+                            "label": "VendorAddress",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "VendorAddress is required"
+                            ]
+                        },
+                        {
+                            "key": "VendorContact",
+                            "label": "VendorContact",
+                            "type": "dropdown",
+                            "valueId": "Value",
+                            "nameId": "Name",
+                            "contentId": "Name",
+                            "source": "Edm.Int64",
+                            "editable": true,
+                            "validators": [
+                                "required",
+                                "isNumber"
+                            ],
+                            "validationMessages": [
+                                "VendorContact is required"
+                            ]
+                        },
+                        {
+                            "key": "TotalPrice",
+                            "label": "TotalPrice",
+                            "type": "dropdown",
+                            "valueId": "Value",
+                            "nameId": "Name",
+                            "contentId": "Name",
+                            "source": "Edm.Int32",
+                            "editable": true,
+                            "validators": [
+                                "required",
+                                "isNumber"
+                            ],
+                            "validationMessages": [
+                                "TotalPrice is required"
+                            ]
+                        },
+                        {
+                            "key": "VendorName",
+                            "label": "VendorName",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "VendorName is required"
+                            ]
+                        },
+                    {
+                        "key": "VendorOrderdetails",
+                        "type": "keyid"
+                    }  
+                        ]
+,        "inventory": [
+                        {
+                            "key": "InventoryId",
+                            "type": "keyid"
+                        },
+                        {
+                            "key": "ExpirtyDate",
+                            "label": "ExpirtyDate",
+                            "type": "date",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "ExpirtyDate is required"
+                            ]
+                        },
+                        {
+                            "key": "PurchasedDate",
+                            "label": "PurchasedDate",
+                            "type": "date",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "PurchasedDate is required"
+                            ]
+                        },
+                        {
+                            "key": "VendorName",
+                            "label": "VendorName",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "VendorName is required"
+                            ]
+                        },
+                        {
+                            "key": "PurchasedStockUnits",
+                            "label": "PurchasedStockUnits",
+                            "type": "dropdown",
+                            "valueId": "Value",
+                            "nameId": "Name",
+                            "contentId": "Name",
+                            "source": "Edm.Int32",
+                            "editable": true,
+                            "validators": [
+                                "required",
+                                "isNumber"
+                            ],
+                            "validationMessages": [
+                                "PurchasedStockUnits is required"
+                            ]
+                        },
+                        {
+                            "key": "InStockUnits",
+                            "label": "InStockUnits",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "InStockUnits is required"
+                            ]
+                        },
+                    {
+                        "key": "InventoryStockalert",
+                        "type": "keyid"
+                    }  
+                        ]
+}

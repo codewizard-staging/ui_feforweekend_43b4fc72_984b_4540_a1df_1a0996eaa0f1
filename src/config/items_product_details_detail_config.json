@@ -1,0 +1,42 @@
+{
+
+"items": [
+    {
+        "key": "ItemId",
+        "type": "keyid",
+        "UIComponentTitle": "Items"
+    }
+        ,{
+        "key": "ItemName",
+        "label": "ItemName",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "ItemDescription",
+        "label": "ItemDescription",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "ItemImage",
+        "label": "ItemImage",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "ItemType",
+        "label": "ItemType",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+]
+}
